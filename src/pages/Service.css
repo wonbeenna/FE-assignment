@@ -1,0 +1,41 @@
+.service {
+  padding: 70px;
+}
+
+.service__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px;
+}
+
+.service__contents {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.service__contents img {
+  width: 40vw;
+  height: auto;
+  border-radius: 10px;
+}
+
+.service__btn button {
+  width: 150px;
+  height: 2.7rem;
+  font-size: 1.2rem;
+  font-weight: 550;
+  text-align: center;
+  color: white;
+  background: #2de1de;
+  border: 0;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.service__btn button:hover {
+  transition: all 0.3s;
+  background: #417cff;
+}

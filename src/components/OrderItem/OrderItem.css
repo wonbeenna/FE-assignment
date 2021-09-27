@@ -1,0 +1,34 @@
+.orderItem {
+  margin-bottom: 50px;
+}
+
+.orderItem__container {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.orderItem__items {
+  list-style: none;
+  background: white;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 16px 0px;
+  margin: 15px;
+  overflow: hidden;
+  display: flex;
+}
+
+.orderItem__items span {
+  margin: 5px;
+  color: black;
+}
+
+.orderItem__id {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.orderItem__name {
+  font-size: 18px;
+}

@@ -1,0 +1,12 @@
+.order {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order__contents span {
+  font-size: 20px;
+  margin: 5px;
+}
